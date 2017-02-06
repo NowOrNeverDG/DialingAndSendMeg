@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DE40CDE1E48101E000D94D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE40CDD1E48101E000D94D3 /* main.m */; };
+		5DE40CE11E48101E000D94D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE40CE01E48101E000D94D3 /* AppDelegate.m */; };
+		5DE40CE41E48101E000D94D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE40CE31E48101E000D94D3 /* ViewController.m */; };
+		5DE40CE71E48101E000D94D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DE40CE51E48101E000D94D3 /* Main.storyboard */; };
+		5DE40CE91E48101E000D94D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DE40CE81E48101E000D94D3 /* Assets.xcassets */; };
+		5DE40CEC1E48101E000D94D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DE40CEA1E48101E000D94D3 /* LaunchScreen.storyboard */; };
+		5DE40CF71E48101E000D94D3 /* SendMegTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE40CF61E48101E000D94D3 /* SendMegTests.m */; };
+		5DE40D021E48101E000D94D3 /* SendMegUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE40D011E48101E000D94D3 /* SendMegUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DE40CF31E48101E000D94D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DE40CD11E48101E000D94D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DE40CD81E48101E000D94D3;
+			remoteInfo = SendMeg;
+		};
+		5DE40CFE1E48101E000D94D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DE40CD11E48101E000D94D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DE40CD81E48101E000D94D3;
+			remoteInfo = SendMeg;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DE40CD91E48101E000D94D3 /* SendMeg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendMeg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE40CDD1E48101E000D94D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DE40CDF1E48101E000D94D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5DE40CE01E48101E000D94D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5DE40CE21E48101E000D94D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5DE40CE31E48101E000D94D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5DE40CE61E48101E000D94D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DE40CE81E48101E000D94D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DE40CEB1E48101E000D94D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DE40CED1E48101E000D94D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE40CF21E48101E000D94D3 /* SendMegTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendMegTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE40CF61E48101E000D94D3 /* SendMegTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendMegTests.m; sourceTree = "<group>"; };
+		5DE40CF81E48101E000D94D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE40CFD1E48101E000D94D3 /* SendMegUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendMegUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE40D011E48101E000D94D3 /* SendMegUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendMegUITests.m; sourceTree = "<group>"; };
+		5DE40D031E48101E000D94D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DE40CD61E48101E000D94D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE40CEF1E48101E000D94D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE40CFA1E48101E000D94D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DE40CD01E48101E000D94D3 = {
+			isa = PBXGroup;
+			children = (
+				5DE40CDB1E48101E000D94D3 /* SendMeg */,
+				5DE40CF51E48101E000D94D3 /* SendMegTests */,
+				5DE40D001E48101E000D94D3 /* SendMegUITests */,
+				5DE40CDA1E48101E000D94D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DE40CDA1E48101E000D94D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DE40CD91E48101E000D94D3 /* SendMeg.app */,
+				5DE40CF21E48101E000D94D3 /* SendMegTests.xctest */,
+				5DE40CFD1E48101E000D94D3 /* SendMegUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DE40CDB1E48101E000D94D3 /* SendMeg */ = {
+			isa = PBXGroup;
+			children = (
+				5DE40CDF1E48101E000D94D3 /* AppDelegate.h */,
+				5DE40CE01E48101E000D94D3 /* AppDelegate.m */,
+				5DE40CE21E48101E000D94D3 /* ViewController.h */,
+				5DE40CE31E48101E000D94D3 /* ViewController.m */,
+				5DE40CE51E48101E000D94D3 /* Main.storyboard */,
+				5DE40CE81E48101E000D94D3 /* Assets.xcassets */,
+				5DE40CEA1E48101E000D94D3 /* LaunchScreen.storyboard */,
+				5DE40CED1E48101E000D94D3 /* Info.plist */,
+				5DE40CDC1E48101E000D94D3 /* Supporting Files */,
+			);
+			path = SendMeg;
+			sourceTree = "<group>";
+		};
+		5DE40CDC1E48101E000D94D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DE40CDD1E48101E000D94D3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DE40CF51E48101E000D94D3 /* SendMegTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DE40CF61E48101E000D94D3 /* SendMegTests.m */,
+				5DE40CF81E48101E000D94D3 /* Info.plist */,
+			);
+			path = SendMegTests;
+			sourceTree = "<group>";
+		};
+		5DE40D001E48101E000D94D3 /* SendMegUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5DE40D011E48101E000D94D3 /* SendMegUITests.m */,
+				5DE40D031E48101E000D94D3 /* Info.plist */,
+			);
+			path = SendMegUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DE40CD81E48101E000D94D3 /* SendMeg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE40D061E48101E000D94D3 /* Build configuration list for PBXNativeTarget "SendMeg" */;
+			buildPhases = (
+				5DE40CD51E48101E000D94D3 /* Sources */,
+				5DE40CD61E48101E000D94D3 /* Frameworks */,
+				5DE40CD71E48101E000D94D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SendMeg;
+			productName = SendMeg;
+			productReference = 5DE40CD91E48101E000D94D3 /* SendMeg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DE40CF11E48101E000D94D3 /* SendMegTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE40D091E48101E000D94D3 /* Build configuration list for PBXNativeTarget "SendMegTests" */;
+			buildPhases = (
+				5DE40CEE1E48101E000D94D3 /* Sources */,
+				5DE40CEF1E48101E000D94D3 /* Frameworks */,
+				5DE40CF01E48101E000D94D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DE40CF41E48101E000D94D3 /* PBXTargetDependency */,
+			);
+			name = SendMegTests;
+			productName = SendMegTests;
+			productReference = 5DE40CF21E48101E000D94D3 /* SendMegTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DE40CFC1E48101E000D94D3 /* SendMegUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE40D0C1E48101E000D94D3 /* Build configuration list for PBXNativeTarget "SendMegUITests" */;
+			buildPhases = (
+				5DE40CF91E48101E000D94D3 /* Sources */,
+				5DE40CFA1E48101E000D94D3 /* Frameworks */,
+				5DE40CFB1E48101E000D94D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DE40CFF1E48101E000D94D3 /* PBXTargetDependency */,
+			);
+			name = SendMegUITests;
+			productName = SendMegUITests;
+			productReference = 5DE40CFD1E48101E000D94D3 /* SendMegUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DE40CD11E48101E000D94D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = BTeam;
+				TargetAttributes = {
+					5DE40CD81E48101E000D94D3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 245C62DU3R;
+						ProvisioningStyle = Automatic;
+					};
+					5DE40CF11E48101E000D94D3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5DE40CD81E48101E000D94D3;
+					};
+					5DE40CFC1E48101E000D94D3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5DE40CD81E48101E000D94D3;
+					};
+				};
+			};
+			buildConfigurationList = 5DE40CD41E48101E000D94D3 /* Build configuration list for PBXProject "SendMeg" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DE40CD01E48101E000D94D3;
+			productRefGroup = 5DE40CDA1E48101E000D94D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DE40CD81E48101E000D94D3 /* SendMeg */,
+				5DE40CF11E48101E000D94D3 /* SendMegTests */,
+				5DE40CFC1E48101E000D94D3 /* SendMegUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DE40CD71E48101E000D94D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE40CEC1E48101E000D94D3 /* LaunchScreen.storyboard in Resources */,
+				5DE40CE91E48101E000D94D3 /* Assets.xcassets in Resources */,
+				5DE40CE71E48101E000D94D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE40CF01E48101E000D94D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE40CFB1E48101E000D94D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DE40CD51E48101E000D94D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE40CE41E48101E000D94D3 /* ViewController.m in Sources */,
+				5DE40CE11E48101E000D94D3 /* AppDelegate.m in Sources */,
+				5DE40CDE1E48101E000D94D3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE40CEE1E48101E000D94D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE40CF71E48101E000D94D3 /* SendMegTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE40CF91E48101E000D94D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE40D021E48101E000D94D3 /* SendMegUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DE40CF41E48101E000D94D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DE40CD81E48101E000D94D3 /* SendMeg */;
+			targetProxy = 5DE40CF31E48101E000D94D3 /* PBXContainerItemProxy */;
+		};
+		5DE40CFF1E48101E000D94D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DE40CD81E48101E000D94D3 /* SendMeg */;
+			targetProxy = 5DE40CFE1E48101E000D94D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DE40CE51E48101E000D94D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DE40CE61E48101E000D94D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DE40CEA1E48101E000D94D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DE40CEB1E48101E000D94D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DE40D041E48101E000D94D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DE40D051E48101E000D94D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DE40D071E48101E000D94D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 245C62DU3R;
+				INFOPLIST_FILE = SendMeg/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HiJu.SendMeg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5DE40D081E48101E000D94D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 245C62DU3R;
+				INFOPLIST_FILE = SendMeg/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HiJu.SendMeg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5DE40D0A1E48101E000D94D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SendMegTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HiJu.SendMegTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendMeg.app/SendMeg";
+			};
+			name = Debug;
+		};
+		5DE40D0B1E48101E000D94D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SendMegTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HiJu.SendMegTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendMeg.app/SendMeg";
+			};
+			name = Release;
+		};
+		5DE40D0D1E48101E000D94D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SendMegUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HiJu.SendMegUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SendMeg;
+			};
+			name = Debug;
+		};
+		5DE40D0E1E48101E000D94D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SendMegUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HiJu.SendMegUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SendMeg;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DE40CD41E48101E000D94D3 /* Build configuration list for PBXProject "SendMeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE40D041E48101E000D94D3 /* Debug */,
+				5DE40D051E48101E000D94D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE40D061E48101E000D94D3 /* Build configuration list for PBXNativeTarget "SendMeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE40D071E48101E000D94D3 /* Debug */,
+				5DE40D081E48101E000D94D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5DE40D091E48101E000D94D3 /* Build configuration list for PBXNativeTarget "SendMegTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE40D0A1E48101E000D94D3 /* Debug */,
+				5DE40D0B1E48101E000D94D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5DE40D0C1E48101E000D94D3 /* Build configuration list for PBXNativeTarget "SendMegUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE40D0D1E48101E000D94D3 /* Debug */,
+				5DE40D0E1E48101E000D94D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DE40CD11E48101E000D94D3 /* Project object */;
+}
