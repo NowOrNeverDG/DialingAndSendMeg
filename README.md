@@ -1,0 +1,2 @@
+# DialingAndSendMeg
+第三方软件内拨打电话和发送短信的简单例子
