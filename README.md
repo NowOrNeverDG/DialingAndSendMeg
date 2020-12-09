@@ -1,2 +1,2 @@
 # DialingAndSendMeg
-A example of making calls and sending text messages in third software.
+A example of making calls and sending text messages.
